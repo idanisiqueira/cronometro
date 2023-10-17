@@ -9,7 +9,6 @@ let cron;
 const clickStart = document.querySelector("#iniciar")
 const clickPause = document.querySelector("#pausar")
 const clickStop = document.querySelector("#parar")
-const clickLap = document.querySelector("#voltar")
 
 clickStart.addEventListener("click", start)
 clickPause.addEventListener("click", pause)
