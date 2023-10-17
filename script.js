@@ -14,12 +14,6 @@ clickStart.addEventListener("click", start)
 clickPause.addEventListener("click", pause)
 clickStop.addEventListener("click", reset)
 
-
-function start() {
-    pause();
-    cron = setInterval(() => { timer(); }, 10);
-  }
-
   function start() {
     clearInterval(cron)
     cron = setInterval(() => {
